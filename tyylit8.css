@@ -1,0 +1,121 @@
+﻿body {
+    background-color: #1B1725;
+}
+header {
+    height: 100px;
+    background: #A499B3;
+}
+
+h1 {
+    color: #1B1725;
+    padding: 22px 0 0 20px;
+}
+
+nav {
+    width: 500px;
+    height: 19px;
+    background: #D0BCD5;
+    margin-left: 200px;
+    outline-color: #FFF;
+}
+    nav li {
+        list-style-type: none;
+        display: inline;
+        padding: 0 10px 0 5px;
+    }
+
+section {
+    width: 800px;
+    background: #534B62;
+    margin-top: 20px;
+    color: #D0BCD5;
+}
+
+h2 {
+    color: #A499B3;
+    padding-bottom: 5px;
+}
+
+article {
+    width: 800px;
+    background: #534B62;
+    font-size: 17px;
+} 
+
+section p {
+    padding-left: 30px;
+}
+
+aside {
+    width: 200px;
+    height: 502px;
+    background: #A499B3;
+    float: right;
+    margin-top: -1px;
+}
+
+h3 {
+    font-size: 20px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+aside article {
+    width: 180px;
+    background: #A499B3;
+    color: #1B1725;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 20px;
+    text-indent: -24px;
+}
+
+article li {
+    padding: 0 10px;
+}
+
+.koulu {
+    width: 300px;
+    padding: 30px;
+}
+
+.harrastus {
+    width: 500px;
+    padding-left: 30px;
+}
+
+#kissa1 {
+    width: 130px;
+}
+
+#kissa2 {
+    width: 430px;
+    padding: 20px 200px 0 300px;
+    transform: scaleX(-1);
+}
+
+#kissa3 {
+    width: 260px;
+    padding: 1200px 5px 0 650px;
+    transform: scaleX(1);
+}
+
+.työ {
+    width: 400px;
+    height: 150px;
+    padding: 0 30px;
+}
+
+.lähde {
+    text-align: right;
+    padding-right: 3px;
+}
+
+footer {
+    height: 40px;
+    background: #A499B3;
+    margin-top: -16px;
+}
+    footer p {
+        padding: 10px 0 0 10px;
+    }
