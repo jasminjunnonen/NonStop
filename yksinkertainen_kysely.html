@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="JAVASCRIPT-harjoitukset/yksinkertainen_kysely.js"></script>
+    <link rel="stylesheet" href="CSS-harjoitukset/yksinkertainen_kysely.css">
+    <title>Tietovisa</title>
+  </head>
+
+  <body>
+    <div class="sisalto">
+      <header>
+        <h1>Yksinkertainen JavaScript tietovisa</h1>
+        <p>Testaa tietosi <strong>Javascriptin perusteista</strong></p>
+      </header>
+
+      <section>
+        <div id="tulokset"></div>
+        <form name="lomake" onsubmit="return vastaukset()">
+          <h3>1. Mihin HTML elementtiin sijoitamme JavaScript koodin?</h3>
+          <input type="radio" id="kysymys1a" name="k1" value="a">a. &lt;js&gt;<br>
+          <input type="radio" id="kysymys1b" name="k1" value="b">b. &lt;script&gt;<br>
+          <input type="radio" id="kysymys1c" name="k1" value="c">c. &lt;body&gt;<br>
+          <input type="radio" id="kysymys1d" name="k1" value="d">d. &lt;link&gt;<br>
+
+          <h3>2. Mitä HTML attribuuttia käytetään viittaamaan ulkoiseen JavaScript tiedostoon?</h3>
+          <input type="radio" id="kysymys2a" name="k2" value="a">a. src<br>
+          <input type="radio" id="kysymys2b" name="k2" value="b">b. link<br>
+          <input type="radio" id="kysymys2c" name="k2" value="c">c. rel<br>
+          <input type="radio" id="kysymys2d" name="k2" value="d">d. href<br>
+
+          <h3>3. Kuinka kirjoitat "Moikka" alert-viestinä?</h3>
+          <input type="radio" id="kysymys3a" name="k3" value="a">a. msg("Moikka");<br>
+          <input type="radio" id="kysymys3b" name="k3" value="b">b. alertBox("Moikka");<br>
+          <input type="radio" id="kysymys3c" name="k3" value="c">c. document.write("Moikka");<br>
+          <input type="radio" id="kysymys3d" name="k3" value="d">d. alert("Moikka");<br>
+
+          <h3>4. JavaScript on suoraan "Java" ohjelmointikielen sukulainen</h3>
+          <input type="radio" id="kysymys4a" name="k4" value="a">a. Kyllä<br>
+          <input type="radio" id="kysymys4b" name="k4" value="b">b. Ei<br>
+
+          <h3>5. JavaScript muuttuja pitää alkaa tietyllä merkillä</h3>
+          <input type="radio" id="kysymys5a" name="k5" value="a">a. @<br>
+          <input type="radio" id="kysymys5b" name="k5" value="b">b. $<br>
+          <input type="radio" id="kysymys5c" name="k5" value="c">c. #<br>
+          <input type="radio" id="kysymys5d" name="k5" value="d">d. Ei tarvitse tiettyä merkkiä<br><br><br>
+
+          <input type="submit" value="Lähetä vastaukset">
+        </form>
+      </section>
+      <footer>
+        <p>Copyright © Jasmin Junnonen 2021, kaikki oikeudet pidätetään.</p>
+      </footer>
+    </div>
+  </body>
+  </html>
