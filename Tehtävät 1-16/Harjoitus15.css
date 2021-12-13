@@ -1,0 +1,31 @@
+﻿table {
+    border-collapse: collapse;
+    width: 450px; 
+}
+table thead, tfoot {
+    background-color: #C8C8C8;
+    text-align: right;
+}
+table tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+table tbody tr:nth-child(even) {
+    background-color: #eeeeee;
+}
+table td {
+    text-align: right;
+}
+table.first-column td:nth-of-type(1) {
+    text-align: left;
+    font-weight: bold;
+}
+table th:nth-of-type(n) {
+    border: 1px solid #999;
+}
+table td:nth-of-type(2) {
+    border: 1px solid #999;
+}
+table td:nth-of-type(3) {
+    border: 1px solid #999;
+}
+
