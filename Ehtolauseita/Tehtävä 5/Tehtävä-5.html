@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Tehtävä-5.css">
+    <script src="Tehtävä-5.js" charset="utf-8"></script>
+    <title></title>
+  </head>
+  <body>
+    <h1>Tehtävä 5</h1>
+    <p>Kirjoita ohjelma, joka kääntää "Hei maailma" tekstin valitulle kielelle</p>
+    <label for="eriKieli"><b>Valitse kieli</b></label><br><br>
+    <select id="eriKieli">
+      <option>Valitse</option>
+      <option id="englanti" value="englanti">Englanti</option>
+      <option id="ruotsi" value="ruotsi">Ruotsi</option>
+      <option id="espanja" value="espanja">Espanja</option>
+    </select>
+    <button type="button" onclick="sort()">Käännä</button>
+    <br><br>
+    <div id="tulokset"></div>
+  </body>
+</html>
