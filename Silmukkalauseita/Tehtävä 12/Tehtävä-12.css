@@ -1,0 +1,54 @@
+#tausta {
+  background-color: #C2925E;
+  margin: 50px 50px 0 50px;
+  padding: 10px 10px 10px 30px;
+  border-left-style: solid;
+  border-color: #523402;
+  border-width: 8px;
+  overflow: hidden;
+}
+
+#Sana {
+  padding: 5px 5px;
+  font-size: 16px;
+}
+
+li {
+  color: #523402;
+  font-size: 19px;
+}
+
+#tulokset {
+  color: #C2925E;
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: #523402;
+  padding: 10px 10px;
+}
+
+h1 {
+  color: #523402;
+  border-bottom: #FFF dashed 1px;
+  border-color: #523402;
+  font-size: 21px;
+  margin-left: -23px;
+}
+
+p {
+  font-size: 19px;
+  color: #523402;
+}
+
+button {
+  padding: 12px 15px;
+  font-size: 16px;
+  background-color: #523402;
+  color: #C2925E;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 2px;
+}
