@@ -1,0 +1,49 @@
+#tausta {
+  background-color: #FFE400;
+  margin: 50px 50px 0 50px;
+  padding: 10px 10px 10px 30px;
+  border-left-style: solid;
+  border-color: #FFBD00;
+  border-width: 8px;
+  overflow: hidden;
+}
+
+#numero {
+  padding: 5px 5px;
+  font-size: 16px;
+}
+
+#tulokset {
+  color:#8A6805;
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: #FFBD00;
+  padding: 10px 10px;
+}
+
+h1 {
+  color: #8A6805;
+  border-bottom: #FFF dashed 1px;
+  border-color: #8A6805;
+  font-size: 21px;
+  margin-left: -23px;
+}
+
+p {
+  font-size: 19px;
+  color: #8A6805;
+}
+
+button {
+  padding: 12px 15px;
+  font-size: 16px;
+  background-color: #FFBD00;
+  color: #8A6805;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 2px;
+}
